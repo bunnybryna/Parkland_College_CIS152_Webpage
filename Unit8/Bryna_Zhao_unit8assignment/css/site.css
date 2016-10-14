@@ -1,0 +1,43 @@
+/* create a border for the table */
+.container {
+    border: 1px solid blue;
+}
+
+/* make all the data cell aligned in the center
+and the font bold*/
+td{
+    text-align: center;
+    font-weight: bold;
+}
+
+/* make text color of the first row white*/
+tr:nth-child(2){
+    color: white;
+}
+
+/* set different background-color for different cells*/
+#a{
+    background-color: purple;
+}
+
+#b{
+    background-color: green;
+}
+
+#c{
+    background-color: blue;
+}
+
+#d{
+    background-color: red;
+}
+
+#e{
+    background-color: black;
+    color: yellow;
+}
+
+#f{
+    background-color: deeppink;
+    color: gray;
+}
