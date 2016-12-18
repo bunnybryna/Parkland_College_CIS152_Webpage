@@ -1,0 +1,203 @@
+
+
+
+body{
+    background: #FFD941 url("../img/patternNew.jpg") repeat;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+/*navbar style*/
+nav{
+    display: inline-block;  
+    height: 6.5vw;
+}
+
+.navbar{
+    margin-bottom:0;
+    min-height:0;
+    background: #FFD941 url("../img/patternNew.jpg") repeat;
+    border: none;
+}
+
+
+#navImg{
+    width: 100%;
+    position: fixed;
+    z-index: 2;
+}
+
+nav, #navMd {
+    padding: 0;
+    margin: 0;
+    width: 100%; 
+    position: fixed; 
+    z-index: 2;    
+}
+
+.container-fluid,.container{
+    padding:0;
+    margin: 0;
+    width: 100%;
+}
+
+#navMd ul{ 
+    margin: 0 auto; 
+    position: absolute; 
+    width: 100%;    
+}
+
+#navMd ul li{
+    display: inline-block;
+    margin: 6vw 0 0 2vw;
+    width: 15%;
+    padding: 0;   
+}
+
+#navMd ul li a
+{
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-style: italic;
+    text-decoration: none;
+    font-size: 2em;   
+    color: #FFD941;
+    padding: 1%;    
+    position: fixed;
+    z-index: 3;
+}
+
+#navMd a:hover{
+    background-color:#FFD941;
+    color: #281200;
+    border-radius: 15px;
+}
+
+#menuButton a{
+    margin-left: 31%;
+}
+
+#aboutButton a{
+    margin-left: 29%;
+}
+
+#navSm{
+    display: none;
+}
+
+/*carousel style*/
+.carousel-caption h1{
+    font-family:'Pacifico', cursive;
+    font-size: 4.5em;
+    color: #281200;
+    background-color: rgba(255,255,255,.5);
+    border-radius: 20px;
+}
+
+
+#carouselContainer{
+    z-index:1;
+    margin-top: 0;
+}
+
+.carousel-inner>.item>img, .carousel-inner>.item>a>img {
+    display: block;
+    height: auto;
+    max-width: 100%;
+    line-height: 1;
+    width: 100%;
+}
+
+#homePicGroup{
+    background-color: #281200;
+    text-align: center;
+    font-size: 1.5em;
+    color: #FFFFFF;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-style: italic;
+    padding: 3vw 0 3vw 0;
+}
+
+#homePicGroup h2{
+    font-size: 2em;    
+}
+
+#homePicGroup p{
+    margin: 3vw 0;
+}
+#picGroup img{
+    border-radius: 20px;
+    opacity: 0.6;
+}
+
+#picGroup img:hover{
+    opacity: 1;
+    border-radius:50%;
+}
+
+/*footer style*/
+#footerPicGroup{
+    margin-top: 3vw;
+}
+footer img{
+    width: 100%;
+}
+
+footer p{
+    font-size:2em;
+    color: #281200;
+    text-align: center;
+}
+
+
+/*to show the mobile navigation bar*/
+@media screen and (max-width:768px)
+{
+    #navMd #navImg{
+    display: none;
+    }
+
+    #navMd ul{
+        display: none;
+    }
+    
+    #navSm{
+        display: block;
+    }
+
+    .navbar-inverse .navbar-nav>li>a{
+        color: #FFD941;
+        font-weight: bold; 
+        background-color: #281200;
+    }
+    
+    .navbar-collapse{
+        border: none;
+    }
+    
+    #logoPhone{
+        height: 100%;
+        padding: 0 10% 0 20%;
+    }
+
+    #carouselContainer{
+        margin-top: 15px;
+    }
+    .carousel-caption h1{
+        font-size: 2em;
+    }
+    
+    #homePicGroup{
+        font-size: 1em;
+        padding: 5%;
+    }    
+    
+    #homePicGroup h2{
+        font-size: 1.5em;
+    }
+    
+    footer p{
+        margin-top: 3vw;
+        font-size: 20px;
+    }
+}
+

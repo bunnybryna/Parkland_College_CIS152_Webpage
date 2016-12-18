@@ -1,0 +1,5 @@
+How internet works
+computer-router-modem-ISP(Internet Service Provider)
+IP Address looks like NNN.NNN.N.N.NN, now 6-number IP address
+
+8 things to be fixed

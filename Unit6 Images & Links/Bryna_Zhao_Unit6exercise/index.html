@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/site.css">
+    <title>CIS 152</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h2>Pikachu World</h2>
+            </div>
+        </div>
+        <div class="row">
+            
+            <div class="col-md-4">
+                <a href="#">
+                    <a href="http://pokemondb.net/pokedex/pikachu"><img class="img" src="http://vignette3.wikia.nocookie.net/parody/images/8/89/Pikachu.jpg/revision/latest?cb=20131006024838" height="300" width="300" /></a>
+                    <!--src=img/nameofPic.jpg if it's included in img folder' -->
+                    <p>remote jpg, link to pikachu webpage</p>
+                </a>
+            </div>
+            
+            <div class="col-md-4">
+                <a href="#">
+                    <!-- target="_blank" will open a new tab-->
+                    <a href="http://pokemondb.net/pokedex/pikachu" target="_blank"><img class="img" src="https://cdn0.vox-cdn.com/thumbor/bG7FjbEv02o4uS0tPF_1DKG3RrI=/800x0/filters:no_upscale()/cdn0.vox-cdn.com/uploads/chorus_asset/file/655234/tumblr_mj3mo3MGAf1r0dbsno1_500.0.gif" height="240" width="300" /></a>
+                    <p>remote gif link to pikachu webpage in new tab</p>
+                </a>
+            </div>
+            
+            <div class="col-md-4">
+                <a href="#">
+                    <a href="http://pokemondb.net/pokedex/pikachu" onclick="window.open('http://pokemondb.net/pokedex/pikachu','newwindow','width=300,height=300'); return false;"><img class="img" src="http://vignette1.wikia.nocookie.net/pokemon/images/6/64/025Pikachu_AG_anime_4.png/revision/20150101094033" height="300" width="300" /></a>
+                    <p>remote png link to pikachu webpage in new window</p>
+                </a>
+            </div>
+          </div>
+            
+          <div class="row">
+            
+            <div class="col-md-4">
+                <a href="#">
+                    <img class="img" src="img/pika0.gif" height="300" width="300" />
+                    <!--src=img/nameofPic.jpg if it's included in img folder' -->
+                    <p>local gif link to top of the current page</p>
+                </a>
+            </div>
+            
+            <div class="col-md-4">
+                <a href="#!">
+                    <img class="img" src="img/pika.gif" height="240" width="300" />
+                    <p>local gif link keeps user in same place</p>
+                </a>
+            </div>
+            
+            <div class="col-md-4">
+                <a href="about.html" target="_blank">
+                    <img class="img" src="img/pika1.gif" height="300" width="300" />
+                    <p>local gif link to about page in new tab</p>
+                </a>
+            </div>
+            </div>    
+            
+    </div>
+    
+    
+    <!-- JS -->
+    <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+    <script src="js/bootstrap.js" type="text/javascript"></script>
+    <script src="js/main.js" type="text/javascript"></script>
+</body>
+
+</html>

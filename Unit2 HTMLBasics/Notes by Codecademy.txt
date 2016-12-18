@@ -1,0 +1,121 @@
+All websites use HTML and CSS. After learning both of these languages, you will be ready to build your own website!
+
+HTML stands for Hyper Text Markup Language. It is used to give websites structure with text, links, images, and other fundamental elements.
+
+CSS stands for Cascading Style Sheets. It is used to change the appearance of HTML elements.
+
+All HTML elements begin with an opening tag. In this case, the opening tag is <h1>.
+
+Most elements require a closing tag, denoted by a /. In this case, the closing tag is </h1>.
+
+The website user only sees the content between the opening and closing tags.
+
+Headings are a frequently used HTML element. You can think of them like headlines in a newspaper. Your eyes may notice headings first because the words are large and bold compared to other text on the webpage.
+
+There are six heading elements: h1, h2, h3, h4, h5, and h6. h1 is the largest heading and h6 is the smallest.
+
+The webpage now has a heading and a tagline. Next, we will add a description of the company.
+
+The HTML paragraph element, p, is used to hold one or more sentences, just like paragraphs in an essay or a book.
+
+Nice work! The webpage is starting to come together.
+
+What if you wanted to link users to a different webpage? The HTML anchor element makes it possible to do this with a single click.
+
+<a href="http://google.com"> Click here for Google!</a>
+
+Anchor elements use an attribute to link users to websites. Attributes customize the behavior or appearance of HTML elements. Anchor elements use the href attribute, which specifies the webpage to link to. In the example above, the text "Click here for Google!" links to http://google.com.
+
+IMPORTANT: Web addresses, such as http://google.com, have a technical name: URL.
+
+Creating links with the anchor element is a fundamental web development skill.
+
+The diagram to the right illustrates the different parts of the anchor element syntax. In the diagram, notice the following:
+
+Any valid URL can be used for the value of the href attribute.
+
+The URL must be enclosed with quotation marks.
+
+Text between the <a> and </a> tags can be as few or as many words as you would like.
+
+---
+
+To add images to a webpage, use the HTML image element:
+<img src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-1/bikes1.jpg"/>
+
+Just like websites have URLs, images on the web also have URLs. Image URLs typically end with the .jpg or .png file extension. The src attribute sets the source for an image element.
+Image elements are self-closing, which means they do not need a closing tag.
+Let's use an image element to add a photograph to our webpage.
+
+The HTML video element can add video to a webpage.
+
+<video width="320" height="240" controls>
+  <source src="video-url.mp4" type="video/mp4">
+</video>
+
+The video element uses a number of attributes. Let's take a look at them:
+
+1.width and height: Set the size of the screen that displays the video.
+
+2.controls: Adds play, pause and volume control.
+
+3.source src: Sets the URL of the video to play.
+
+4.type: Specifies different video formats.
+
+Another essential HTML element is the unordered list. Items in an unordered list are referred to as list items. Each item is bulleted, not numbered. For example:
+
+A list item
+A second list item
+A third list item
+The HTML code for the list above:
+<ul>
+  <li>A list item</li>
+  <li>A second list item</li>
+  <li>A third list item</li>
+</ul>
+
+About unordered lists:
+
+1.ul tags create the unordered list.
+
+2.li tags contain each list item.
+Unordered list elements can be used to organize content on a webpage in a number of ways. Below we will use one to organize our website's navigation menu, sometimes called a navbar.
+
+With the video and unordered list elements, you may have noticed something interesting: these HTML elements had other HTML elements nested inside of them.
+
+For example, in unordered lists, li elements are nested inside the ul.
+
+<ul>
+  <li>First item</li> 
+  <li>Second item</li>
+</ul>
+Web developers refer to the enclosing element as the parent element and the enclosed elements as children.
+
+Referring to HTML elements as parents and children may sound funny, but it's a core web development concept. The web browser also knows about these parent/child relationships, which will be important as we explore CSS in the next lesson.
+
+Now that we know about HTML element nesting and parent/child relationships, let's see another way these concepts are applied on a real-life webpage.
+
+Div elements divide your page by enclosing other elements. These enclosed groups of elements can then be organized, moved and styled independently from one another.
+
+Div elements are often used with the class attribute. Here's an example:
+
+<div class="main">
+ ...
+</div>
+
+Note: The ... indicates where other HTML elements would normally be enclosed by the div.
+
+Below, we will use divs to divide our page into three separate parts.
+
+The last HTML elements we will explore are involved in metadata processes. You can think of these elements as the "brains" of a webpage because they communicate vital information to the web browser, but are not visible to a webpage visitor.
+
+1.<!DOCTYPE html>: Tells the web browser to expect an HTML document.
+
+2.<html>...</html>: The root of the HTML document and parent of all other HTML elements on the webpage.
+
+3.<head>...</head>: Enclose other metadata about the site, such as its title.
+
+4.<title>...</title>: Contains the site's title, which is one way users can find your site through a search engine, like Google.
+
+5.<meta charset="utf-8"/>: Tells the web browser which character set to use. In this case, the character set is "utf-8".

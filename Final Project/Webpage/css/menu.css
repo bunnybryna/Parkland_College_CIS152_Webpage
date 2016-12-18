@@ -1,0 +1,159 @@
+/*css for menu page*/
+.row{
+    width: 100%;
+    margin:0;
+}
+
+.col-md-12{
+    width: 100%;
+    padding: 0;
+}
+
+#menuBanner img{
+    width: 100%;
+    padding: 0
+}
+
+main{
+    background-color: #281200;
+    border: 1px solid #281200;  
+}
+
+#enlarge{
+    display: inline-block;
+    width: 100%;
+    line-height: 35vw;
+    height: 35vw;
+    color: #FFD941;
+    font-family: 'Pacifico', cursive;
+    font-size: 3em;
+    background-image: "none";
+    background-size: 100% 100%;
+    text-align: center;
+    border-radius: 20px;    
+}
+
+#details{
+    color: #B55200;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 2em;
+    padding-top: 9vw;
+}
+
+.preview{
+    width: 100%;
+    border-radius: 20px;    
+}
+
+#menuPicGroup{
+    padding: 2vw 0 2vw 0;
+    border: #B55200;
+}
+
+.menuD{
+    font-size: 1.5em;
+    padding: 5%;
+    font-family:"Comic Sans MS", cursive, sans-serif;
+    color: #B55200;
+}
+
+@media screen and (min-width:992px){
+    .menuD{
+        font-size: 0.5em;
+    }
+}
+
+
+/*css for aboutUs page*/
+
+
+@-webkit-keyframes wipe {
+    0% {
+        -webkit-mask-position: 0 0;
+    }
+    100% {
+        -webkit-mask-position: -600px -600px;
+    }
+}
+
+#rollover {
+    width: 100%;
+    position: relative;
+    -webkit-box-shadow: 1px 1px 3px rgba(0,0,0,0.75);
+}
+
+#rollover div {
+    position: absolute;
+    top: 0;
+
+}
+
+#rollover img{
+    width: 900px;
+    }
+    
+#rollover div:nth-child(2) {
+    -webkit-transition: -webkit-mask-position 1s ease;		
+    -webkit-mask-size: 2400px 2400px;
+    -webkit-mask-image: -webkit-gradient(linear, left top, right top, 
+            color-stop(0.00,  rgba(0,0,0,1)),
+            color-stop(0.35,  rgba(0,0,0,1)),
+            color-stop(0.50,  rgba(0,0,0,0)),
+            color-stop(0.75,  rgba(0,0,0,0)),
+            color-stop(1.00,  rgba(0,0,0,0)));
+}
+
+#rollover div:nth-child(2):hover {
+    -webkit-mask-position: -1000px -1000px;
+}
+
+#page-wrap{
+    display: block;
+}
+
+#story{
+    padding: 5vw 0;
+}
+
+article p{
+    font-size:1.5em;
+    color: #FFFFFF;
+    font-family: "Comic Sans MS", cursive;
+}
+
+article h1{
+    color: #FFFFFF;
+    font-family: "Comic Sans MS", cursive; 
+    text-align: center;
+    padding: 2px;
+}
+
+.cityGroup{
+    padding:0;
+}
+
+#waw, #nyc, #cmi{
+    display: none;
+}
+
+@media screen and (max-width:1200px){
+    article p{
+        font-size:1em;
+    }
+    
+    article h1{
+        font-size: 1.5em;
+    }
+    
+    #rollover div:nth-child(2) {
+    -webkit-transition: -webkit-mask-position 1s ease;		
+    -webkit-mask-size: 1600px 1600px;
+    -webkit-mask-image: -webkit-gradient(linear, left top, right top, 
+            color-stop(0.00,  rgba(0,0,0,1)),
+            color-stop(0.35,  rgba(0,0,0,1)),
+            color-stop(0.50,  rgba(0,0,0,0)),
+            color-stop(0.75,  rgba(0,0,0,0)),
+            color-stop(1.00,  rgba(0,0,0,0)));
+}
+    
+}

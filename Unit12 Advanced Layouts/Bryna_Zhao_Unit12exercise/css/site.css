@@ -1,0 +1,53 @@
+body{
+    background-color: lightgreen;
+}
+
+.container{
+    background-color: lightgray;
+}
+
+.heading{
+    height: 100px;
+}
+
+.name{
+    font-size: 20px;
+    text-align: right;
+    padding: 50px 0 20px 50px;
+}    
+
+.navbar
+{
+    margin-left: 30;
+    background-color: hotpink;
+    text-align: center;
+    font-size: 25px;
+}    
+
+a{
+     color: white;
+}
+
+nav{
+    border:2px solid green;
+}
+.content{
+    width: 1000px;
+    background-color: lightgray;    
+    border: 8px solid yellow; 
+    text-align: center;
+    font-size: 30px;  
+}
+
+.blue{
+    background-color: aqua;
+}
+
+.orange{
+    background-color: orange;
+}
+
+.linesecond{
+    background-color: rebeccapurple;
+    color: white;
+}

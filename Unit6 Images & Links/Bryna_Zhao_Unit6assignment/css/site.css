@@ -1,0 +1,52 @@
+/* set a fixed width of body 
+font-family is changed to a softer font
+body part has a top and left margin*/
+body{
+  width: 650px;
+  font-family: Cambria;
+  margin-top: 15px;
+  margin-left: 50px;
+}
+
+/* give all sections a lightgreen background color
+and a padding from border to match the example*/
+section{
+  background-color: lightgreen;
+  border: 2px solid lightgreen; 
+  padding: 10px;
+}
+
+/* put all header elements(h1, author and time) in center*/
+header{
+  text-align: center;
+}
+
+/* make the font size of all paragraphs
+ a little bigger than default but smaller than the title*/
+p{
+  font-size: 18px;
+}
+
+/* among all code, only those children of p will have a lightgray shading 
+and remain the default font to distinguish from p font(a softer font);
+bash class is also code but not children of p, will leave untouched */
+p code{
+  background-color: lightgray;
+  font-family: default;
+}
+
+/* give bash class a black background and larger distance from border*/
+.bash{
+  border: 2px solid black;
+  background: black;
+  color: white;
+  padding: 10px;
+}
+
+/* two imgs in the body, only children of figure will have a orange border: 
+the other(the small img next in header) will not change */
+figure img{
+  border: 15px solid darkorange;
+}
+
+

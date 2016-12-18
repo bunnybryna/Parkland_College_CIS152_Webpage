@@ -1,0 +1,14 @@
+dark brown #281200 rgb 40 18 0
+light brown #B55200 rgb 181 82 0
+yellow #FFD941//eace61 rgb 255 217 65
+
+
+#EEC0DB 238 192 219
+Dark #C5689F 197 104 159
+#DD96C0
+light #f9e4f1 rgb:249 228 241
+
+donut #e85c8b 232 92 139
+
+replace color: magic wand(shift if necessary)-choose color-alt + backspace to fill up-ctrl + d(cancel select)
+ctrl + J (move it to a new layer)

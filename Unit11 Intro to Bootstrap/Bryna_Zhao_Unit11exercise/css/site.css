@@ -1,0 +1,38 @@
+p{
+    text-align:center;   
+    font-weight:bold;
+    padding-top: 15px;
+}
+
+.container{
+    border: 1px solid blue; 
+}
+
+.header{
+    background-color: #D3D3D3;
+    border: 1px solid blue;     
+}
+
+.firstline{
+    background-color: yellow;
+    height: 50px;
+    border: 1px solid blue; 
+}
+
+.secondline{
+    background-color: orange;
+    height: 150px;
+    border: 1px solid blue;     
+}
+
+.thirdline{
+    background-color: #FF00FF;
+    height: 50px;
+    border: 1px solid blue;     
+}
+
+.fourthline{
+    background-color: #90EE90;
+    height: 50px;
+    border: 1px solid blue;     
+}

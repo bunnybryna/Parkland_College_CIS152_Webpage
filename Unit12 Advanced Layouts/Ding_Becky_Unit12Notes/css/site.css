@@ -1,0 +1,34 @@
+.title1{
+    background-color: tan; 
+    height: 80px;
+}
+
+.byline1{
+    background-color: beige;
+    height: 80px;
+}
+
+.title2{
+    background-color: cyan; 
+    height: 80px;
+}
+
+.byline2{
+    background-color: lightcyan;
+    height: 80px;
+}
+
+.blockforsomethingelse{
+    background-color: darkcyan;
+    height: 80px;
+}
+
+.title3{
+    background-color: salmon; 
+    height: 80px;
+}
+
+.byline3{
+    background-color: lightsalmon;
+    height: 80px;
+}

@@ -1,0 +1,14 @@
+clone
+history: all the changes are shown 
+
+revert to original state
+
+you can see all change you've made
+
+make changes-commit the master-sync (fail to syc, conflicts)
+
+somethoughts on midterm
+shape of d, links hover: d
+top rated items, photo gallery
+
+open in explorer-copy - commit changes - publish

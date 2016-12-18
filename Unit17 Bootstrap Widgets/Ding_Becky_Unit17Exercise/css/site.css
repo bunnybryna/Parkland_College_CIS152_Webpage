@@ -1,0 +1,12 @@
+body {
+    background: transparent;
+}
+
+
+label.error {
+    color: red;
+}
+
+.carousel-caption {
+    color:black;
+}

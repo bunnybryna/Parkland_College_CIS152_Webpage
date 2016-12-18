@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>DD About Us</title>
+    <link rel="icon" type="image/png" href="img/logosm.png"/>
+    <!-- linking to Bootstrap-->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!--linking to my own css-->
+	<link rel="stylesheet" type="text/css" href="css/home.css">
+    <link rel="stylesheet" type="text/css" href="css/menu.css">
+    <!--google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Pacifico" rel='stylesheet' type='text/css'>
+    
+</head>
+<body>
+<header>
+<nav class="navbar navbar-inverse" id="navbar-primary">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display-->
+    <div id="navSm">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#"><img src="img/NEWLOGO.png" id="logoPhone" alt="brand logo"></a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="aboutUs.html">About</a></li>
+        </ul>
+    </div>
+    </div><!--/ #navSm-->
+    <div class="collapse navbar-collapse" id="navMd">
+      <img id="navImg" src="img/navF.png" class="img-responsive" alt="navbar background">   
+      <ul class="nav navbar-nav">
+        <li>                              
+            <a href="index.html">
+            <img src="img/donutTitle.png" alt="donutButton">Home</a>
+        </li>
+        <li>
+            <a href="contact.html">
+            <img src="img/donutTitle.png" alt="donutButton">Contact</a>
+        </li>
+        <li id="menuButton">
+            <a href="menu.html">
+            <img src="img/donutTitle.png" alt="donutButton">Menu</a>
+        </li>
+        <li id="aboutButton">
+            <a href="aboutUs.html">
+            <img src="img/donutTitle.png" alt="donutButton">
+            About</a>
+        </li>
+      </ul>
+    </div><!-- /.navbar-collapse #navMd-->
+  </div><!-- /.container-fluid -->
+</nav>
+</header><!-- header role="banner" -->
+
+<div class="container">
+    <main class="row" id="journey">
+        <div class="col-xs-5 col-md-7">
+            <div id="page-wrap">
+                <div id="rollover">
+                    <div><img src="img/donutMap11.png" class="img-responsive" alt="world map"></div>
+                    <div><img src="img/donutMap2.png" class="img-responsive" alt="world map with Donut Delights' Stops"></div>
+                </div>
+            </div>
+        </div>
+        <div class="col-xs-7 col-md-5" id="story">
+            <article>
+            <h1>Donut Delights's Journey</h1>
+            <p>In 1971, an immigrant baker named Melvin Furballski from the far east coast of Poland landed in New York City and by chance he found an open seat on a bus heading west.</p>
+            <p>When an unexpected mechanical failure forced a three day delay in Champaign, Illinois, Furballski saw the need for a donut shop. Here with only $100 and an abandoned breadshop, he made one of a kind donuts flying off the racks faster than he could bake them and things have never slowed down.</p>
+            <P>Now you can find that same great donut recipe plus dozens more still being made with the same love and care as when Donut Delights first opened.</p>
+                <button type="submit" class="btn btn-warning btn-lg" id="wawbtn" data-target="waw">Poland</button>
+                <button type="submit" class="btn btn-warning btn-lg" id="nycbtn" data-target="nyc">New York City</button>
+                <button type="submit" class="btn btn-warning btn-lg" id="cmibtn" data-target="cmi">Champaign-Urbana</button>
+            </article>
+        </div>
+    </main>
+    <div class="cityGroup">
+        <div class="row">
+            <div class="col-sm-12 cityGroup">
+                <img class="img-responsive" src="img/WAW.png" id="waw" alt="Warsaw's landscape with a clock showing the time 1am">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12 cityGroup">
+                <img class="img-responsive" src="img/NYC.png" id="nyc" alt="New York City's landscape with a clock showing the time 7pm ">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12 cityGroup">
+                <img class="img-responsive" src="img/CMI.png" id="cmi" alt="Champaign-Urbana's landscape with a clock showing the time 6pm ">
+            </div>
+        </div>  
+    </div>
+</div>
+    
+
+<footer>
+<div class="container">
+<div class="row">
+    <figure id="footerPicGroup">
+    <div class="col-xs-offset-2 col-xs-2 col-sm-offset-4 col-sm-1">    
+        <a href="https://www.facebook.com"><img src="img/facebookD.png" alt="Facebook link"></a>
+    </div>
+    <div class="col-xs-2 col-sm-1">    
+        <a href="https://twitter.com"><img src="img/twitterD.png" alt="Twitter link"></a>
+    </div>
+    <div class="col-xs-2 col-sm-1">    
+        <a href="https://www.instagram.com"><img src="img/instagramD.png" alt="Instagram link"></a>
+    </div>  
+    <div class="col-xs-2 col-sm-1">    
+        <a href="https://plus.google.com/"><img src="img/googleD.png" alt="Google+link"></a>
+    </div>       
+    </figure>
+</div>
+<div class="row">
+<div class="col-md-offset-4 col-md-4">    
+    <p>&copy;2016 by Bryna Zhao</p>
+</div>
+</div>
+</div>
+</footer>
+    
+    
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- jQuery CDN-->
+    <script   src="https://code.jquery.com/jquery-3.1.1.min.js"   integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="   crossorigin="anonymous"></script>
+    <!--JS for navbar movement -->
+    <script src="js/main.js" type="text/javascript"></script>
+	
+</body>
+</html>
+
+
+

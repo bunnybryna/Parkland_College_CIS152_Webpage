@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <title>Form Validation</title>
+
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/site.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+
+                <h1>Please join our email list</h1>
+                <form id="email_form" class="form" action="join.html" method="get">
+                    
+                    <div class="form-group">
+                        <label for="email_1">Email Address:</label>
+                        <input type="text" class="form-control" name="email_1" id="email_1">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email_2">Confirm Email Address:</label>
+                        <input type="text" class="form-control" name="email_2">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="first_name">Name:</label>
+                        <input type="text" class="form-control" name="full_name">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="address_1">Address Line 1:</label>
+                        <input type="text" class="form-control" name="address_1">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="address_2">Address Line 2:</label>
+                        <input type="text" class="form-control" name="address_2">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="city">City:</label>
+                        <input type="text" class="form-control" name="city">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="phone">Phone Number:</label>
+                        <input type="text" class="form-control" name="phone">
+                    </div>
+
+                    <button type="submit" id="join" class="btn btn-primary">Submit</button>
+                </form>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- JS -->
+    <!-- this is the jQuery CDN reference. You need internet access for this file! -->
+    <script src="https://code.jquery.com/jquery-2.2.3.min.js" integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo=" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <script src="js/jquery.validate.min.js" type="text/javascript"></script>
+    <script src="main.js" type="text/javascript"></script>
+</body>
+
+</html>

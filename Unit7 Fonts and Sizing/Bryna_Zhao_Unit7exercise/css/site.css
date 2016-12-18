@@ -1,0 +1,38 @@
+body{
+    font-family:Helvetica, Arial, san-serif;
+    /*default: 16px, 62.5%=10px*/
+    font-size:62.5%;
+}
+
+.headings-section{
+    font-family: Courier, Monaco, monospace;
+    font-size: 5rem;
+        /*5 times of root element(body) 100px*/
+}
+h1{
+    font-family:"Times New Roman",Times, serif;
+    font-size: em;
+
+}
+
+.paragraph-section{
+    font-family:Calibri, Arial;
+    color:blue;
+    font-size:2rem;
+}
+
+p{
+    font-size:em;
+    /*1 times of current font(.paragraph-section 2rem,40px)*/
+}
+
+.lists-section{
+    font-family:Calibri, serif;
+    color: green;
+    font-size: 3rem;
+}
+
+.forms-section{
+    font-size: 4rem;
+}
+

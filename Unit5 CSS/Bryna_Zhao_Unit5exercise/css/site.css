@@ -1,0 +1,50 @@
+body {
+    text-align: center;
+}
+
+section{
+    background-color: green;
+}
+
+h1{
+    margin:0px;
+}
+
+#sub-headings {
+    background-color: purple;
+    margin: 0px;
+    border-bottom: purple 4px solid;
+}
+
+h2{
+    background-color:black; color: white;
+    margin:0px;
+    border: purple;
+}
+
+p{
+    background-color: aqua;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#container div{
+    background-color: yellow;
+    padding: 2px;
+}
+
+#container {
+    background-color: green;
+    border: green 10px;
+    border-bottom:green 4px solid;
+    
+}
+
+.large {
+    font-size: 30px; font-weight: bolder;
+    margin-left: 5px;
+    margin-right: 5px;
+    
+}

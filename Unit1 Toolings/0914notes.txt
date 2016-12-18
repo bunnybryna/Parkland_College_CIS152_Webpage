@@ -1,0 +1,23 @@
+code school&dev tools
+c1
+1.1 dom dominations
+elements
+tools-developer tools-
+html on left css on right
+add attributes
+
+
+dock side
+ 
+
+Add a class attribute of "today" to the <b> element inside of the date <h1>.
+right click "add attribute"
+
+ctrl +shift +I
+more tools-developing tools-
+
+ctrl+z undo
+
+element.style vs declaration for all events
+
+assignment 1

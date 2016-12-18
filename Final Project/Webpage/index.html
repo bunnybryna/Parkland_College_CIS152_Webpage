@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">    
+	<title>DD Home</title>
+    <link rel="icon" type="image/png" href="img/logosm.png"/>
+    <!-- linking to Bootstrap-->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!--linking to my own css-->
+	<link rel="stylesheet" type="text/css" href="css/home.css">
+    <!--google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Pacifico" rel='stylesheet' type='text/css'>
+</head>
+<body>
+<header>
+<nav class="navbar navbar-inverse" id="navbar-primary">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display-->
+    <div id="navSm">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#"><img src="img/NEWLOGO.png" id="logoPhone" alt="brand logo"></a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+            <li><a href="#">Home</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="aboutUs.html">About</a></li>
+        </ul>
+    </div>
+    </div><!--/ #navSm-->
+    <div class="collapse navbar-collapse" id="navMd">
+      <img id="navImg" src="img/navF.png" class="img-responsive" alt="navbar background">   
+      <ul class="nav navbar-nav">
+        <li>                              
+            <a href="#">
+            <img src="img/donutTitle.png" alt="donutButton">Home</a>
+        </li>
+        <li>
+            <a href="contact.html">
+            <img src="img/donutTitle.png" alt="donutButton">Contact</a>
+        </li>
+        <li id="menuButton">
+            <a href="menu.html">
+            <img src="img/donutTitle.png" alt="donutButton">Menu</a>
+        </li>
+        <li id="aboutButton">
+            <a href="aboutUs.html">
+            <img src="img/donutTitle.png" alt="donutButton">
+            About</a>
+        </li>
+      </ul>
+    </div><!-- /.navbar-collapse #navMd-->
+  </div><!-- /.container-fluid -->
+</nav>
+</header><!-- header role="banner" -->
+
+<div class="container" id="carouselContainer">
+<div class="row">
+<div class="col-md-12">
+<div id="theCarousel" class="carousel slide" data-ride="carousel">
+<ol class="carousel-indicators">
+    <li data-target="#theCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#theCarousel" data-slide-to="1"></li>
+    <li data-target="#theCarousel" data-slide-to="2"></li>
+    <li data-target="#theCarousel" data-slide-to="3"></li>    
+</ol>
+
+<div class="carousel-inner">
+    <div class="item active">
+        <img src="img/donutSugar.jpg" alt="Stack of donuts on a plate on blue and pink background">
+        <div class="carousel-caption">
+        <h1>Happiness is Donut-Shaped!</h1>
+        </div>
+    </div>
+
+    <div class="item">
+        <img src="img/coffeeCS.jpg" alt="Best coffee in the town">
+        <div class="carousel-caption">
+        <h1>Right Coffee at Right Time.</h1>
+        </div>
+    </div>
+    
+    <div class="item">
+        <img src="img/donutCS3.jpg" alt="More donuts of all kinds of color and tastes">
+        <div class="carousel-caption">
+        <h1>Life should Taste as Good as Donuts.</h1>
+        </div>
+    </div>    
+    
+    <div class="item">
+        <img src="img/donutCS2.jpg" alt="Classic chocolate donut on the wood table">
+        <div class="carousel-caption">
+        <h1>So Much More than just Donuts.</h1>
+        </div>
+    </div>  
+</div><!-- /. carousel-innter -->   
+ 
+    <a class="left carousel-control" href="#theCarousel" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+    </a>    
+    <a class="right carousel-control" href="#theCarousel" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+    </a>
+ 
+</div> <!-- /.carousel --> 
+</div> <!-- /.col --> 
+</div> <!-- /.row --> 
+</div> <!-- /.container --> 
+
+<div class="container" id="homePicGroup">
+<div class="row">
+    <div class="col-sm-12 col-md-offset-1 col-md-10 col-lg-offset-2 col-lg-8">
+        <h2>The finest in breakfast treats and coffees since 1971</h2>
+        <p>Donut Delights has been serving C-U with the highest quality donuts and coffees since 1971. Nestled in downtown Urbana, Donut Delights has become a haven for “Gotta have it” breakfast treats. Our donuts are baked fresh twice daily and our coffee’s brewed every fifteen minutes. If you have never been to C-U’s hidden gem then you are missing out.</p> 
+    </div>
+</div>    
+<div class="row" id="picGroup">
+    <div class="col-xs-4">
+        <img src="img/blueberry.jpg" class="img-responsive" alt="blueberry donut">
+    </div>
+    <div class="col-xs-4">
+        <img src="img/croissant.jpg" class="img-responsive" alt="croissant">
+    </div>
+    <div class="col-xs-4">
+        <img src="img/coffeeSpoon.jpg" class="img-responsive" alt="coffee on the table">
+    </div>
+</div>
+</div>
+    
+<footer>
+<div class="container">
+<div class="row">
+    <figure id="footerPicGroup">
+    <div class="col-xs-offset-2 col-xs-2 col-sm-offset-4 col-sm-1">    
+        <a href="https://www.facebook.com"><img src="img/facebookD.png" alt="Facebook link"></a>
+    </div>
+    <div class="col-xs-2 col-sm-1">    
+        <a href="https://twitter.com"><img src="img/twitterD.png" alt="Twitter link"></a>
+    </div>
+    <div class="col-xs-2 col-sm-1">    
+        <a href="https://www.instagram.com"><img src="img/instagramD.png" alt="Instagram link"></a>
+    </div>  
+    <div class="col-xs-2 col-sm-1">    
+        <a href="https://plus.google.com/"><img src="img/googleD.png" alt="Google+link"></a>
+    </div>       
+    </figure>
+</div>
+<div class="row">
+<div class="col-md-offset-4 col-md-4">    
+    <p>&copy;2016 by Bryna Zhao</p>
+</div>
+</div>
+</div>
+</footer>
+    
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>	

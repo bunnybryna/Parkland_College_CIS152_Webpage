@@ -1,0 +1,28 @@
+use different tools to scratch
+1. gmp
+create a new layer
+img has to be on a layer
+
+2. ps
+everything is a layer
+layer, small image(convert to smallobj) before your resize
+ctrl+t, shift, finish then enter
+
+
+view-ruler
+
+history three button
+
+majic wond - shift+ctrl+i - j
+
+
+3. illustrator
+
+
+logo stays same
+available for commercial use
+
+
+table
+border-collapse:collapse
+means each element won't have their own border, only one as a group

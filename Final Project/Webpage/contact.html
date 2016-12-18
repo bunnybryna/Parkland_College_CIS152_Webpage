@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>DD Contact</title>
+    <link rel="icon" type="image/png" href="img/logosm.png"/>
+    <!-- linking to Bootstrap-->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!--linking to my own css-->
+	<link rel="stylesheet" type="text/css" href="css/home.css">
+    <link rel="stylesheet" type="text/css" href="css/contact.css">
+    <!--google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Pacifico" rel='stylesheet' type='text/css'>
+    <!--linking to my own js-->
+    <script src = "js/menu.js"></script>    
+
+</head>
+<body>
+<header>
+<nav class="navbar navbar-inverse" id="navbar-primary">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display-->
+    <div id="navSm">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#"><img src="img/NEWLOGO.png" id="logoPhone" alt="brand logo"></a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="aboutUs.html">About</a></li>
+        </ul>
+    </div>
+    </div><!--/ #navSm-->
+    <div class="collapse navbar-collapse" id="navMd">
+      <img id="navImg" src="img/navF.png" class="img-responsive" alt="navbar background">   
+      <ul class="nav navbar-nav">
+        <li>                              
+            <a href="index.html">
+            <img src="img/donutTitle.png" alt="donutButton">Home</a>
+        </li>
+        <li>
+            <a href="contact.html">
+            <img src="img/donutTitle.png" alt="donutButton">Contact</a>
+        </li>
+        <li id="menuButton">
+            <a href="menu.html">
+            <img src="img/donutTitle.png" alt="donutButton">Menu</a>
+        </li>
+        <li id="aboutButton">
+            <a href="aboutUs.html">
+            <img src="img/donutTitle.png" alt="donutButton">
+            About</a>
+        </li>
+      </ul>
+    </div><!-- /.navbar-collapse #navMd-->
+  </div><!-- /.container-fluid -->
+</nav>
+</header><!-- header role="banner" -->
+ 
+    <main>
+        <figure>
+            <img src="img/storeFront.jpg" alt="Donut Delights' store front in color pencil drawing">
+        </figure>
+    </main>
+    
+<!-- Container (Contact Section) -->
+<div class="container-fluid">
+  <div id="contact">
+  <h3 class="text-center">Contact</h3>
+  <p class="text-center"><em>Subscribe to our newsletter for the latest on our seasonal offerings and special events!</em></p>
+  <br/>
+
+  <div class="row">
+    <div class="col-md-4">
+      <p>Visit Us!</p>
+      <p><span class="glyphicon glyphicon-map-marker"></span>  Address: 2112 main street Urbana,Illinois 61801</p>
+      <p><span class="glyphicon glyphicon-phone"></span>  Phone: 217-555-1234</p>
+      <p><span class="glyphicon glyphicon-envelope"></span>  Email: contact@donutdelights.com</p>
+    </div>
+    <div class="col-md-8">
+    <form action="https://formspree.io/brynazhao@gmail.com"
+      method="POST">
+      <div class="row">
+        <div class="col-sm-6 form-group">
+          <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+        </div>
+        <div class="col-sm-6 form-group">
+          <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+        </div>
+      </div>
+      <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea>
+      <br>
+      <div class="row" id="buttonRow">
+        <div class="col-md-12 form-group">
+          <button class="btn pull-right" type="submit" id="sendBtn">Send</button>
+        </div>
+      </div>
+    </form>  
+    </div><!-- /.col-md-8 -->
+  </div><!-- /.row -->
+  </div><!-- /#contact -->
+  <br>
+  
+  <div id="reviewSect">
+  <h3 class="text-center">Review from Customers</h3>  
+  <ul class="nav nav-tabs">
+    <li class="active"><a data-toggle="tab" href="#customer1">Simpsons</a></li>
+    <li><a data-toggle="tab" href="#customer2">Black</a></li>
+    <li><a data-toggle="tab" href="#customer3">Stark</a></li>
+  </ul>
+
+  <div class="tab-content">
+    <div id="customer1" class="tab-pane fade in active">
+      <img class="img-circle pull-right" src="img/homer.jpg" alt="Homer Simpsons holding a donut">     
+      <h2>Homer Simpsons</h2>
+      <p>Donut Delights is constantly nominated as one of the best in Champaign-Urbana and I won't disagree.</p>
+    </div>
+    <div id="customer2" class="tab-pane fade">
+      <img class="img-circle pull-right" src="img/max.jpg" alt="broke sisters in cup cake costumes">       
+      <h2>Max Black</h2>
+      <p>I ran my first 10k this morning. Just kindding. I'm on my third donut.I can't help it, they're tooooo good!</p>
+    </div>
+    <div id="customer3" class="tab-pane fade">
+      <img class="img-circle pull-right" src="img/tony.jpg"  alt="Iron Man sitting in a giant donut">       
+      <h2>Tony Stark</h2>
+      <p>That moment when you open the box and you just forget your problems (and it's not alcohol). </p>
+    </div>
+  </div>
+</div>
+
+    <!--mykey:AIzaSyCAkbqORNQScCY6aGGNXAa3iOxyu9UzvuQ-->
+    <div class="row" id="googleMap">
+    <div class="col-md-12">
+        <iframe height="500" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=place_id:EiUyMTEyIEUgTWFpbiBTdCwgVXJiYW5hLCBJTCA2MTgwMiwgVVNB&key=AIzaSyCAkbqORNQScCY6aGGNXAa3iOxyu9UzvuQ" allowfullscreen></iframe>
+    </div>
+    </div>  
+    
+    <div class="row">
+    <div class="col-md-6" id="calendar">
+    <table class="table">
+        <caption>Dec 2016</caption>
+        <thead>
+            <tr>
+                <th>Sun</th>
+                <th>Mon</th>
+                <th>Tue</th>
+                <th>Wed</th>
+                <th>Thu</th>
+                <th>Fri</th>
+                <th>Sat</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="old">27</td>
+                <td class="old">28</td> 
+                <td class="old">29</td>
+                <td class="old">30</td>
+                <td>1</td>
+                <td>2*<span>Coffee<br/>half-price!</span></td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>5</td>
+                <td>6</td>
+                <td>7</td>
+                <td>8</td>
+                <td>9</td>
+                <td>10</td>
+            </tr>
+            <tr>
+                <td>11</td>
+                <td>12*<span>Donut Delights<br/>Day!</span></td>
+                <td>13</td>
+                <td>14</td>
+                <td>15</td>
+                <td>16</td>
+                <td>17</td>
+            </tr>
+            <tr>
+                <td>18</td>
+                <td>19</td>
+                <td>20</td>
+                <td>21</td>
+                <td>22</td>
+                <td>23</td>
+                <td>24</td>
+            </tr>            
+            <tr>
+                <td>25*<span>Merry<br/>Christmas!</span></td>
+                <td>26</td>
+                <td>27</td>
+                <td>28</td>
+                <td>29</td>
+                <td>30</td>
+                <td>31*<span>Happy<br/>New Year!</span></td>
+            </tr>                 
+        </tbody>    
+    </table>
+    </div>
+    <div class="col-md-4" id="donipedia">
+        <details open><summary>Donipedia: What is Donut Delights Day?</summary>
+        <p>One of Donut Delights’ favorite holidays is Donut Delights Day – celebrated this year on Monday, Dec 12 – and once again the brand will ring in the day in a most delicious, delightful and delectable way, offering guests a free classic donut of their choice* (while supplies last) with the purchase of any beverage. The offer is good all day!</p></details>
+        <h1>Looking forward to seeing you!</h1>
+    </div>    
+    </div><!-- /.row -->
+</div>    
+
+<footer>
+<div class="container">
+<div class="row">
+    <figure id="footerPicGroup">
+    <div class="col-xs-offset-2 col-xs-2 col-sm-offset-4 col-sm-1">    
+        <a href="https://www.facebook.com"><img src="img/facebookD.png" alt="Facebook link"></a>
+    </div>
+    <div class="col-xs-2 col-sm-1">    
+        <a href="https://twitter.com"><img src="img/twitterD.png" alt="Twitter link"></a>
+    </div>
+    <div class="col-xs-2 col-sm-1">    
+        <a href="https://www.instagram.com"><img src="img/instagramD.png" alt="Instagram link"></a>
+    </div>  
+    <div class="col-xs-2 col-sm-1">    
+        <a href="https://plus.google.com/"><img src="img/googleD.png" alt="Google+link"></a>
+    </div>       
+    </figure>
+</div>
+<div class="row">
+<div class="col-md-offset-4 col-md-4">    
+    <p>&copy;2016 by Bryna Zhao</p>
+</div>
+</div>
+</div>
+</footer>
+    
+    
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+
+	
+</body>
+</html>	
